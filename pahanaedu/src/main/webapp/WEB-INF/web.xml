@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-inst..." xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web..." id="WebApp_ID" version="3.0">
+	
+	
+	
+<servlet>
+ 	<servlet-name>registerUser</servlet-name>
+ 	<servlet-class>servlet.registerUser</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>registerUser</servlet-name>
+	<url-pattern>/reguser</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>loginUser</servlet-name>
+ 	<servlet-class>servlet.loginUser</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>loginUser</servlet-name>
+	<url-pattern>/loguser</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>allUsers</servlet-name>
+ 	<servlet-class>servlet.allUsers</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>allUsers</servlet-name>
+	<url-pattern>/allusers</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>updateUsers</servlet-name>
+ 	<servlet-class>servlet.updateUsers</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>updateUsers</servlet-name>
+	<url-pattern>/updateuser</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>editUser</servlet-name>
+ 	<servlet-class>servlet.editUser</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>editUser</servlet-name>
+	<url-pattern>/edituser</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>deleteUser</servlet-name>
+ 	<servlet-class>servlet.deleteUser</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>deleteUser</servlet-name>
+	<url-pattern>/deluser</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>addCustomer</servlet-name>
+ 	<servlet-class>servlet.addCustomer</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>addCustomer</servlet-name>
+	<url-pattern>/addcustomer</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>allCustomers</servlet-name>
+ 	<servlet-class>servlet.allCustomers</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>allCustomers</servlet-name>
+	<url-pattern>/allcustomer</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>updateCustomer</servlet-name>
+ 	<servlet-class>servlet.updateCustomer</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>updateCustomer</servlet-name>
+	<url-pattern>/updcustomer</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>deleteCustomer</servlet-name>
+ 	<servlet-class>servlet.deleteCustomer</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>deleteCustomer</servlet-name>
+	<url-pattern>/delcustomer</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>editCustomer</servlet-name>
+ 	<servlet-class>servlet.editCustomer</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>editCustomer</servlet-name>
+	<url-pattern>/edcustomer</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>searchCustomer</servlet-name>
+ 	<servlet-class>servlet.searchCustomer</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>searchCustomer</servlet-name>
+	<url-pattern>/searcustomer</url-pattern>
+
+</servlet-mapping>
+<servlet>
+ 	<servlet-name>allBooks</servlet-name>
+ 	<servlet-class>servlet.allBooks</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>allBooks</servlet-name>
+	<url-pattern>/allbooks</url-pattern>
+
+</servlet-mapping>
+
+
+<servlet>
+ 	<servlet-name>addBook</servlet-name>
+ 	<servlet-class>servlet.addBook</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>addBook</servlet-name>
+	<url-pattern>/addbook</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>editBook</servlet-name>
+ 	<servlet-class>servlet.editBook</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>editBook</servlet-name>
+	<url-pattern>/editbook</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>deleteBook</servlet-name>
+ 	<servlet-class>servlet.deleteBook</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>deleteBook</servlet-name>
+	<url-pattern>/dltbook</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>addBill</servlet-name>
+ 	<servlet-class>servlet.addBill</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>addBill</servlet-name>
+	<url-pattern>/addbill</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+ 	<servlet-name>viewSales</servlet-name>
+ 	<servlet-class>servlet.viewSales</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping>
+
+	<servlet-name>viewSales</servlet-name>
+	<url-pattern>/viewsales</url-pattern>
+
+</servlet-mapping>
+</web-app>

@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+body {
+  background-color: #7393B3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: fit-content;
+  min-width: 500px;
+  max-width: 100%;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center horizontally */
+}
+
+.container form .form-group {
+  width: 100%; /* make form-groups full width inside container */
+  max-width: 320px; /* optional, to limit input width */
+  margin-bottom: 20px;
+}
+
+.container form label {
+  display: block;
+  margin-bottom: 6px;
+  color: #555;
+  text-align: center; /* center label text */
+}
+
+.container form input[type="text"],
+.container form input[type="password"],
+.container form input[type="email"],
+.container form select {
+  width: 100%; /* full width of form-group */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.container form button {
+  max-width: 320px;
+}
+
+.blue-button {
+    background-color: #007bff;  /* blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+      width: auto;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;  /* darker blue on hover */
+}
+
+h2 {
+text-align: center;
+color: white;
+background-color: #007bff; /* Bootstrap blue */
+padding: 15px 20px;
+border-radius: 8px;
+margin-bottom: 20px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  width: auto;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/*--- for login button---*/
+.wide-button {
+    width: 250px;         
+    padding: 10px 20px;  
+    font-size: 16px;   
+    background-color: #28a745;	  
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+/*---------------------------for table----------------*/
+table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  thead {
+    background-color: #353935;
+    color: white;
+
+    th {
+      padding: 12px 15px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid #ddd;
+
+      &:hover {
+        background-color: #f1f1f1;
+      }
+
+      td {
+        padding: 10px 15px;
+        text-align: center;
+        color: #333;
+      }
+    }
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+  }
+}
+
+.btn-edit {
+  background-color: #ffc107; 
+  color: #212529;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 2px;
+
+  &:hover {
+    background-color: #e0a800; 
+  }
+}
+
+
+.btn-delete {
+  background-color: #dc3545; 
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 2px;
+
+  &:hover {
+    background-color: #bd2130; 
+  }
+}
+
+.blue-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 2px;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+/*--for massages in user registration form---*/
+
+.success-message {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.error-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/*----Footer---*/
+
+.footer {
+  text-align: center;
+  padding: 2px 0px;
+  background-color: #1B1212; 
+  font-size: 14px;
+  color: #F0FFFF;
+  margin-top: 100px;
+  line-height: 1;
+}
+
+.footer-line {
+  border: none;
+  height: 1px;
+  background-color: #ccc; 
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+

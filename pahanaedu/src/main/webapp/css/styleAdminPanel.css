@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.username {
+margin-right: 20px;
+}
+
+.navbar-container {
+  max-width: 1500px;  
+  margin: 0 auto;    
+}	
+
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0;
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.navbar .user-info i {
+  margin-right: 5px;
+}
+
+.navbar .logout-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .logout-btn:hover {
+  background-color: white;
+  color: #343a40;
+}
+
+.panel-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.panel-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+.panel-container form {
+  margin-bottom: 20px;
+}
+
+.panel-container button {
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* for register staff button*/
+
+.btn-yellow {
+  background-color: #ffc107; 
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-yellow:hover {
+  background-color: #e0a800; 
+}
+
+/*for sales report button*/
+
+.btn-green {
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-green:hover {
+  background-color: #1e7e34; 
+}
+
+
+.btn-blue {
+  background-color: #0096FF; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color:#6495ED; 
+}
+
+
+/*background-color: #007bff*/
+/*.panel-container button:nth-child(odd) {
+  background-color: 
+}*/
+
+
+
